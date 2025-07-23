@@ -88,6 +88,35 @@ function CenteredNavWithSidebar() {
               </p>
             </div>
           </Link>
+          {/* <Link
+            to="/"
+            className="flex items-center space-x-3"
+            onClick={handleNavClick}
+          >
+            <div className="flex h-20 w-20 items-center justify-center">
+              <img
+                src={logoImage}
+                alt="Logo"
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <div className="hidden sm:block">
+              <h1
+                className={`text-xl font-bold transition-colors ${
+                  scrolled ? "text-gray-900" : "text-white"
+                }`}
+              >
+                RW 7 Kaligawe
+              </h1>
+              <p
+                className={`text-sm transition-colors ${
+                  scrolled ? "text-gray-600" : "text-gray-200"
+                }`}
+              >
+                Gayamsari, Semarang
+              </p>
+            </div>
+          </Link> */}
 
           {/* Center Navigation - Hidden when sidebar is open */}
           <div
@@ -218,7 +247,9 @@ function CenteredNavWithSidebar() {
           {/* Sidebar Footer */}
           <div className="border-t border-gray-200 px-4 py-4">
             <div className="text-center">
-              <p className="text-xs text-gray-500">© 2025 KKN TIM 77</p>
+              <p className="text-xs text-gray-500">
+                © 2025 KKN KELOMPOK 5 TIM 77
+              </p>
               <p className="text-xs text-gray-400">Universitas Diponegoro</p>
             </div>
           </div>
