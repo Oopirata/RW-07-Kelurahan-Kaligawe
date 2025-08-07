@@ -112,7 +112,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen">
       {/* Set document title */}
-      <title>RW 7 Kelurahan Kaligawe - Gayamsari, Semarang</title>
+      {/* <title>RW 7 Kelurahan Kaligawe - Gayamsari, Semarang</title> */}
 
       {/* Navigation */}
       <BioportNavigation />
