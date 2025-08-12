@@ -12,6 +12,7 @@ import {
   ArrowLeft,
   Home,
   Droplets,
+  Dessert,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -48,51 +49,89 @@ const PetaBiopori = () => {
     biopori: [
       {
         id: 1,
-        name: "Biopori RT 01 - Halaman Masjid",
+        name: "Biopori RT 06 - Sebelah Pos",
         description:
-          "Biopori dengan kedalaman 100cm, dibuat di area strategis dengan akses mudah untuk maintenance",
+          "Biopori dibuat di area strategis dengan akses mudah untuk maintenance",
         status: "Selesai",
-        dateCreated: "28 Jan 2025",
-        depth: "100 cm",
-        diameter: "10 cm",
-        coordinate: "7°00'12\"S, 110°25'18\"E",
-        maintenance: "Rutin setiap 2 minggu",
+        dateCreated: "10 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96708, 110.44905",
       },
       {
         id: 2,
-        name: "Biopori RT 02 - Taman Warga",
+        name: "Biopori RT 06 - Sebelah Pos",
         description:
-          "Biopori di area taman dengan tanah gembur, resapan air optimal untuk area sekitar",
+          "Biopori dibuat di area strategis dengan akses mudah untuk maintenance",
         status: "Selesai",
-        dateCreated: "30 Jan 2025",
-        depth: "80 cm",
-        diameter: "10 cm",
-        coordinate: "7°00'15\"S, 110°25'22\"E",
-        maintenance: "Rutin setiap 2 minggu",
+        dateCreated: "10 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96704, 110.44906",
       },
       {
         id: 3,
-        name: "Biopori RT 03 - Lapangan",
+        name: "Biopori RT 06 - Area Hijau",
         description:
-          "Biopori di area lapangan untuk mengatasi genangan saat hujan deras",
+          "Biopori di area dengan banyak tumbuhan untuk mengatasi genangan saat hujan deras dan menyuburkan tanah",
         status: "Selesai",
-        dateCreated: "2 Feb 2025",
-        depth: "90 cm",
-        diameter: "10 cm",
-        coordinate: "7°00'18\"S, 110°25'25\"E",
-        maintenance: "Rutin setiap 2 minggu",
+        dateCreated: "10 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96688, 110.44837",
       },
       {
         id: 4,
-        name: "Biopori RT 01 - Gang Keluarga",
+        name: "Biopori RT 06 - Area Hijau",
         description:
-          "Biopori tambahan di gang sempit untuk optimasi daya serap air hujan",
-        status: "Dalam Progress",
-        dateCreated: "5 Feb 2025",
-        depth: "75 cm",
-        diameter: "10 cm",
-        coordinate: "7°00'10\"S, 110°25'20\"E",
-        maintenance: "Belum dijadwalkan",
+          "Biopori di area dengan banyak tumbuhan untuk mengatasi genangan saat hujan deras dan menyuburkan tanah",
+        status: "Selesai",
+        dateCreated: "10 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96675, 110.44841",
+      },
+      {
+        id: 5,
+        name: "Biopori SDN Kaligawe",
+        description:
+          "Biopori berada di taman SDN Kaligawe dengan banyak tumbuhan",
+        status: "Selesai",
+        dateCreated: "11 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.9667, 110.44806",
+      },
+      {
+        id: 6,
+        name: "Biopori SDN Kaligawe",
+        description:
+          "Biopori berada di taman SDN Kaligawe dengan banyak tumbuhan",
+        status: "Selesai",
+        dateCreated: "11 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96666, 110.44807",
+      },
+      {
+        id: 7,
+        name: "Biopori RT 02 - Area resapan",
+        description: "Biopori berada di area resapan sebelah rumah Ketua RT 02",
+        status: "Selesai",
+        dateCreated: "11 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96649, 110.44746",
+      },
+      {
+        id: 8,
+        name: "Biopori RT 02 - Area terbuka",
+        description: "Biopori berada di area terbuka dekat jalan utama",
+        status: "Selesai",
+        dateCreated: "11 Agustus 2025",
+        depth: "50 cm",
+        diameter: "4 inch",
+        coordinate: "-6.96684, 110.44755",
       },
     ],
   };
@@ -304,7 +343,7 @@ const PetaBiopori = () => {
                 </div>
                 <div className="text-center sm:text-left">
                   <h3 className="text-xl md:text-2xl font-bold text-white">
-                    Biopori yang Telah Dibuat Tim KKN
+                    Biopori yang Telah Dibuat Kelompok KKN
                   </h3>
                   <p className="text-gray-300 leading-relaxed text-sm md:text-base">
                     Dokumentasi digital lubang biopori di RW 7 Kaligawe
@@ -381,14 +420,14 @@ const PetaBiopori = () => {
                           {location.dateCreated}
                         </div>
                       </div>
-                      <div>
+                      {/* <div>
                         <div className="text-xs text-gray-500 mb-1">
                           Maintenance
                         </div>
                         <div className="font-medium text-gray-900 text-sm">
                           {location.maintenance}
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}

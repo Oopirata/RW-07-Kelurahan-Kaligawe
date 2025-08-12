@@ -50,7 +50,6 @@ export default function LandingPage() {
       stats: [
         { label: "Total RT", value: "5" },
         { label: "Kepala Keluarga", value: "150+" },
-        { label: "Luas Wilayah", value: "±2.5 Ha" },
       ],
     },
     {
@@ -71,7 +70,7 @@ export default function LandingPage() {
         "Menghadapi permasalahan genangan air saat musim hujan dan kebutuhan edukasi sanitasi. Program biopori menjadi solusi berkelanjutan untuk masalah ini.",
       stats: [
         { label: "Area Rawan Genangan", value: "3 RT" },
-        { label: "Titik Biopori", value: "25+" },
+        { label: "Titik Biopori", value: "8" },
         { label: "Program Sanitasi", value: "Aktif" },
       ],
     },
